@@ -1,6 +1,6 @@
 # File Name: gesturerecorder.py
 import kivy
-kivy.require('1.7.0')
+kivy.require('2.3.1')
 from kivy.app import App
 from kivy.uix.floatlayout import FloatLayout
 from kivy.graphics import Line, Ellipse
@@ -24,7 +24,7 @@ class GestureRecorder(FloatLayout):
         gesture.add_stroke(self.points)
         gesture.normalize()
         gdb = GestureDatabase()
-        print "Gesture:", gdb.gesture_to_str(gesture)
+        print("Gesture:", gdb.gesture_to_str(gesture))
 
 class GestureRecorderApp(App):
     def build(self):

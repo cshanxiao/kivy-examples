@@ -1,6 +1,6 @@
 # File name: ammo.py
 import kivy
-kivy.require('1.7.0')
+kivy.require('2.3.1')
 
 from kivy.animation import Animation
 from kivy.uix.image import Image

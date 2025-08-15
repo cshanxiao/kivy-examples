@@ -1,6 +1,6 @@
 # File name: shooter.py
 import kivy
-kivy.require('1.7.0')
+kivy.require('2.3.1')
 
 from kivy.clock import Clock
 from kivy.uix.image import Image

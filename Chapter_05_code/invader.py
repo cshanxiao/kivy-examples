@@ -1,6 +1,6 @@
 # File name: invader.py
 import kivy
-kivy.require('1.7.0')
+kivy.require('2.3.1')
 from kivy.core.window import Window
 from kivy.uix.image import Image
 from kivy.animation import Animation

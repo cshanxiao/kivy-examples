@@ -1,6 +1,6 @@
 # File name: main.py
 import kivy
-kivy.require('1.7.0')
+kivy.require('2.3.1')
 
 from kivy.app import App
 from kivy.lang import Builder

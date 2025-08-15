@@ -1,6 +1,6 @@
 # File name: drawingspace.py
 import kivy
-kivy.require('1.7.0')
+kivy.require('2.3.1')
 from kivy.uix.stencilview import StencilView
 from kivy.gesture import Gesture, GestureDatabase
 from gestures import line45_str, circle_str, cross_str
